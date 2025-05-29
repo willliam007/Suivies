@@ -32,7 +32,7 @@ if (!isset($_SESSION["user_type"]) || $_SESSION["user_type"] !== "admin") {
                 <a href="#" class="btn btn-perso w-100 py-3">Manage Users</a>
             </div>
             <div class="col-md-6 col-lg-4">
-                <a href="#" class="btn btn-perso w-100 py-3">Manage Students</a>
+                <a href="manage_students.php" class="btn btn-perso w-100 py-3">Manage Students</a>
             </div>
             <div class="col-md-6 col-lg-4">
                 <a href="#" class="btn btn-perso w-100 py-3">Manage Notes</a>
