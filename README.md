@@ -19,10 +19,10 @@ git push -u origin main
 
 ##fonctionnalitées de l'application 
 - [ ] chaque parent se connecter accede au dashboard de son/ses enfants 
-- [ ]consulte leurs fiches de notes 
-- [ ]une fois cliquer sur une fiche de notes , il peut y acceder a la liste des notes a travers un graphe qui
-- []montre l'evolution de notes par matiere
-- []peut envoyer un messages au responsable en accedant a la messagerie a travers le dashboard
+- [ ] consulte leurs fiches de notes 
+- [ ] une fois cliquer sur une fiche de notes , il peut y acceder a la liste des notes a travers un graphe qui
+- [ ] montre l'evolution de notes par matiere
+- [ ] peut envoyer un messages au responsable en accedant a la messagerie a travers le dashboard
 
 
 
