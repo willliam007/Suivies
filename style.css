@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    min-height: 100vh;
+}
+.card {
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.btn-perso {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: #fff;
+    border: none;
+}
+.btn-perso:hover {
+    background: linear-gradient(90deg, #ee0979, #ff6a00);
+    color: #fff;
+}
+.form-label {
+    color: #ee0979;
+    font-weight: bold;
+}
+h2, h1 {
+    color: #ff6a00;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+}
