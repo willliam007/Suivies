@@ -14,9 +14,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($user && password_verify($mot_de_passe, $user["mot_de_passe"])) {
         $_SESSION["user_id"] = $user["id"];
         $_SESSION["user_type"] = $user["type"];
-        header("Location: dashboard.php");
+        if ($user["type"] === "admin") {
+            header("Location: admin_dashboard.php");
+        } else {
+            header("Location: dashboard.php");
+        }
         exit;
-    } else {
+    }
+    else {
         $message = "Identifiants incorrects.";
     }
 }

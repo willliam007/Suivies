@@ -40,3 +40,5 @@ CREATE TABLE messages (
     FOREIGN KEY (sender_id) REFERENCES users(id),
     FOREIGN KEY (receiver_id) REFERENCES users(id)
 );
+
+INSERT INTO users (nom, email, mot_de_passe, type) VALUES ('Admin', 'admin@gmail.com', '123456', 'admin');

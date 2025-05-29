@@ -26,3 +26,7 @@ git push -u origin main
 
 
 
+- - Manage Notes : Add or modify notes for any student.
+- Manage Advice : Write or edit personalized advice for any student.
+- View Messages : Read and respond to messages from parents.
+- Navigation : Provide clear navigation links between admin features and a logout button.
